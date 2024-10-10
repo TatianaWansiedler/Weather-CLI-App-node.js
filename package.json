@@ -1,30 +1,33 @@
 {
-  "name": "weather-forcast-cli-app",
-  "version": "1.0.0",
-  "private": false,
-  "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "cli",
-    "wheather"
-  ],
-  "author": "Tatiana Wansiedler",
-  "license": "ISC",
-  "homepage": "https://ex.com",
-  "repository": {
-    "type": "git",
-    "url": "https://ex.com"
-  },
-  "bugs": {
-    "url": "https://ex.com",
-    "email": "tatjana@wansiedler.com"
-  },
-  "dependencies": {
-    "axios": "^1.7.7"
-  }
+    "name": "weather-forcast-cli-app",
+    "version": "1.0.0",
+    "private": false,
+    "description": "CLI for getting weather",
+    "main": "weather.js",
+    "bin": {
+        "weather": "weather.js"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "wheather"
+    ],
+    "author": "Tatiana Wansiedler",
+    "license": "ISC",
+    "homepage": "https://ex.com",
+    "repository": {
+        "type": "git",
+        "url": "https://ex.com"
+    },
+    "bugs": {
+        "url": "https://ex.com",
+        "email": "tatjana@wansiedler.com"
+    },
+    "dependencies": {
+        "axios": "^1.7.7"
+    }
 }
