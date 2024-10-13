@@ -1,6 +1,6 @@
 {
-    "name": "weather-forcast-cli-app",
-    "version": "1.0.0",
+    "name": "weather-forecast-cli-app",
+    "version": "1.1.0",
     "private": false,
     "description": "CLI for getting weather",
     "main": "weather.js",
