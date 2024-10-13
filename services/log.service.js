@@ -2,16 +2,16 @@ import chalk from "chalk";
 import dedent from "dedent-js";
 
 const printError = (error) => {
-    console.log(chalk.bgRed("ERROR: "), error);
+    console.log(chalk.red.inverse("ERROR: "), error);
 };
 
 const printSuccess = (msg) => {
-    console.log(chalk.bgGreen("SUCCESS: "), msg);
+    console.log(chalk.green.inverse("SUCCESS: "), msg);
 };
 
 const printHelp = () => {
     console.log(
-        dedent`${chalk.bgCyan("HELP")}
+        dedent`${chalk.cyan.inverse("HELP")}
 		Without parameters - weather output
 		-s [CITY] - set the city
 		-h - display help
@@ -22,7 +22,7 @@ const printHelp = () => {
 
 const printWeather = (res, icon) => {
     console.log(
-        dedent`${chalk.bgYellow(" WEATHER ")} in: ${res.name}
+        dedent`${chalk.blue.inverse(" WEATHER ")} in: ${res.name}
 			${icon}  ${res.weather[0].description}
 			Temp: ${res.main.temp} (Feels like ${res.main.feels_like})
 			Humidity: ${res.main.humidity}%
