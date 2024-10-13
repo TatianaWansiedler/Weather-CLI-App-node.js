@@ -18,13 +18,13 @@
     ],
     "author": "Tatiana Wansiedler",
     "license": "ISC",
-    "homepage": "https://ex.com",
+    "homepage": "https://github.com/TatianaWansiedler",
     "repository": {
         "type": "git",
-        "url": "https://ex.com"
+        "url": "https://github.com/TatianaWansiedler"
     },
     "bugs": {
-        "url": "https://ex.com",
+        "url": "https://github.com/TatianaWansiedler",
         "email": "tatjana@wansiedler.com"
     },
     "dependencies": {
