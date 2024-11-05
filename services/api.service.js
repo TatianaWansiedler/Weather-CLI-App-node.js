@@ -1,6 +1,5 @@
-import https from "https";
-import { getKeyValue, TOKEN_DICT } from "./storage.service.js";
 import axios from "axios";
+import { getKeyValue, TOKEN_DICT } from "./storage.service.js";
 
 const getIcon = (icon) => {
 	switch (icon.slice(0, -1)) {
@@ -45,4 +44,5 @@ const getWeather = async (city) => {
 	return data;
 };
 
-export { getWeather, getIcon };
+export { getIcon, getWeather };
+
